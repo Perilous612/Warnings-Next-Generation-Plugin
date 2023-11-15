@@ -28,4 +28,4 @@ pipeline {
             recordIssues enabledForFailure: true, tool: pmdParser(pattern: '**/target/pmd.xml')
         }
     }
-}/*qweqweqwe
+}
