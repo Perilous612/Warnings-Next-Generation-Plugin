@@ -1,4 +1,4 @@
-pipeline {
+pipeline { 
     agent any
     stages {
         stage ('Checkout') {
@@ -28,4 +28,4 @@ pipeline {
             recordIssues enabledForFailure: true, tool: pmdParser(pattern: '**/target/pmd.xml')
         }
     }
-}
+}/*qweqweqwe
